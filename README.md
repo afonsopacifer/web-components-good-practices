@@ -6,6 +6,16 @@
 
 ## Table of contents
 
+  - [ ] [Make reusable and composable](#make-reusable-and-composable)
+  - [ ] [Cover the basics](#cover-the-basics)
+  - [ ] [Make maintainable](#make-maintainable)
+  - [ ] [Improve performance](#improve-performance)
+  - [ ] [A11y](#a11y)
+  - [ ] [Make customizable](#make-customizable)
+  - [ ] [Document all](#document-all)
+  - [ ] [Publish to the world](#publish-to-the-world)
+  - [ ] [Resources for learning](#resources-for-learning)
+
 ## Make reusable and composable
 
   - [ ] Learn the 17 Rules of [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
@@ -40,18 +50,26 @@
   - [ ] Think in [tab index](https://www.youtube.com/watch?v=Pe0Ce1WtnUM&index=13&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) order.
   - [ ] Test all with [Accessibility Developer Tools](https://github.com/GoogleChrome/accessibility-developer-tools).
 
-## Make easy to use
-
-  - [ ] Document all.
-  - [ ] Specify the component support.
-  - [ ] Generate [automatic docs](https://www.polymer-project.org/1.0/docs/tools/documentation).
-  - [ ] Publish in [bower](https://bower.io/).
-  - [ ] Publish in [webcomponents.org](https://www.webcomponents.org/publish).
-
 ## Make [customizable](https://www.youtube.com/watch?v=IbOaJwqLgog)
 
   - [ ] Use [custom properties](https://www.w3.org/TR/css-variables/) and expose the API for users with docs.
   - [ ] Use [@apply rule](https://tabatkins.github.io/specs/css-apply-rule/) for most generic style and expose the API for users with docs.
+
+## Document all
+
+  - [ ] Provide a quick demo (like [webcomponents.org inline demo](https://www.webcomponents.org/publish)).
+  - [ ] Provide a full demo (Polymer [iron-demo-helpers](https://github.com/PolymerElements/iron-demo-helpers) is recommended).
+  - [ ] Describe how to download and use the component.
+  - [ ] Describe how to style the component.
+  - [ ] Specify the component support.
+  - [ ] Describe your API. ([example](https://www.webcomponents.org/element/PolymerElements/paper-button/paper-button))
+  - [ ] Describe how to run the development environment.
+  - [ ] Describe how to run all the tests.
+
+## Publish to the world
+
+  - [ ] Publish in [bower](https://bower.io/).
+  - [ ] Publish in [webcomponents.org](https://www.webcomponents.org/) following the [requirements](https://www.webcomponents.org/publish).
 
 ## Resources for learning
 - [Practical lessons from a year of building web components - Google I/O 2016](https://www.youtube.com/watch?v=zfQoleQEa4w&feature=youtu.be) - [@notwaldorf](https://twitter.com/notwaldorf)
